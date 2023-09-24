@@ -1,0 +1,22 @@
+/* Estilo inicial del elemento */
+.fade-enter {
+    opacity: 0;
+  }
+  
+  /* Estilo final del elemento cuando se monta */
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  
+  /* Estilo inicial del elemento cuando se desmonta */
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  /* Estilo final del elemento cuando se desmonta */
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+  
